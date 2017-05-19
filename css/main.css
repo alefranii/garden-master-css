@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:500');
+
+*{
+	font-family: "Raleway", sans-serif;
+}
+
+body{
+	background-color: #7AE57F;
+	margin-left: 20px;
+}
+
+h1, h2, h3, abbr{
+	font-family: 'Lobster', cursive;
+	text-decoration: none;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	line-height: 25px;
+}
+
+a{
+	text-decoration: none;
+	color:#7AE57F;
+}
+
+a:visited {
+    color: #7AE57F;
+  }
+
+a:hover, a:focus {
+    color: rgba(8, 134, 74, 0.90);
+
+}
+
+
+section.intro{
+	background-image: url(../img/ancient-1807518_1280.jpg);
+}
+
+
+section header h1{
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 130px 20px;
+}
+
+section header h2{
+	text-align: center;
+	color: #fff;
+}
+
+#zen-summary{
+	text-align: center;
+	padding: 6%;
+	color: #fff;
+}
+
+.preamble, .participation, .requirements{
+	padding: 10%;
+	background-color: #ECF0F1;
+	color: #2C3E50;  
+}
+.explanation, .benefits{
+	padding: 10%;
+	background-image: url(../img/lapland-139186_1280.jpg);
+	color: #fff; 
+
+}
+
+h3 .explanation{
+	color: #fff;
+}
+
+ul{
+	list-style: none;
+	display: inline-block;
+}
+
+footer {
+	padding:40px 40px;
+	background-color: rgba(8, 134, 74, 0.90);
+	color: #F0E4ED; 
+	text-align: center;	
+}
+
+.fa-4x {
+    font-size: 4em;
+    padding: 16px;
+    color:#fff;
+}
+
+.fa-4x:focus, .fa-4x:hover {
+    color: #F4D03F;
+  }
+
+.sidebar{
+	width: 100%;
+}
+
+.design-selection, .design-archives, .zen-resources{
+	background-color: #ECF0F1;
+	color: #2C3E50;	
+	display:inline-block;
+	height: 280px;
+	text-align: center;
+	float:left;
+	padding:6%;
+}
